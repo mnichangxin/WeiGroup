@@ -62,13 +62,13 @@ class SelfInfo extends React.Component{
                     <li className = 'selfinfo-icon-list' onClick = {()=>logout()}>
                         <i className = 'selfinfo-icon'>&#xe67b;</i>
                     </li>
+                    {/*<li className = 'selfinfo-icon-list'>*/}
+                        {/*<a href = '#' target = '_blank'>*/}
+                            {/*<i className = 'selfinfo-icon'>&#xe68e;</i>*/}
+                        {/*</a>*/}
+                    {/*</li>*/}
                     <li className = 'selfinfo-icon-list'>
-                        <a href = 'http://blog.mdzzapp.com/#/article/纪录cr聊天室开发?_k=ey6sdw' target = '_blank'>
-                            <i className = 'selfinfo-icon'>&#xe68e;</i>
-                        </a>
-                    </li>
-                    <li className = 'selfinfo-icon-list'>
-                        <a href = 'https://github.com/redsx/CR' target = '_blank'>
+                        <a href = 'https://github.com/mnichangxin/WeiGroup' target = '_blank'>
                             <i className = 'selfinfo-icon' style = {{fontWeight: '900'}}>&#xe692;</i>
                         </a>
                     </li>

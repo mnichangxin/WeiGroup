@@ -61359,20 +61359,7 @@
 	                            { className: 'selfinfo-icon-list' },
 	                            _react2.default.createElement(
 	                                'a',
-	                                { href: 'http://blog.mdzzapp.com/#/article/纪录cr聊天室开发?_k=ey6sdw', target: '_blank' },
-	                                _react2.default.createElement(
-	                                    'i',
-	                                    { className: 'selfinfo-icon' },
-	                                    ''
-	                                )
-	                            )
-	                        ),
-	                        _react2.default.createElement(
-	                            'li',
-	                            { className: 'selfinfo-icon-list' },
-	                            _react2.default.createElement(
-	                                'a',
-	                                { href: 'https://github.com/redsx/CR', target: '_blank' },
+	                                { href: 'https://github.com/mnichangxin/WeiGroup', target: '_blank' },
 	                                _react2.default.createElement(
 	                                    'i',
 	                                    { className: 'selfinfo-icon', style: { fontWeight: '900' } },
