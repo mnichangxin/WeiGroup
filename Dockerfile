@@ -1,3 +1,5 @@
+FROM node:4.1.1
+
 ## Main
 ## ENV APP /usr/src/app
 ## RUN mkdir -p ${APP}/
