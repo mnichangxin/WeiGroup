@@ -9,7 +9,7 @@ ADD ./ ./
 ADD ./docker/ /docker
 RUN chmod +x /docker/*.sh
 RUN npm install
-RUN npm client-start
+# RUN npm client-start
 
 
 EXPOSE 3000
