@@ -80,9 +80,9 @@ class FriendList extends React.Component{
         let { setUserCurRoom, clearCount, setScrollState } = this.props;
         let badgeCount = this.props.badgeCount.toJS();
         
-        let  room = {};
+        let room = {};
         room.avatar = 'http://oajmk96un.bkt.clouddn.com/hdImg_6e40281f541d24709f2840adc72631a61469706694782.jpg';
-        room.name = 'MDZZ'
+        room.name = '默认房间'
         list.unshift(
             <li
                 key = {room.name}

@@ -62163,7 +62163,7 @@
 	
 	            var room = {};
 	            room.avatar = 'http://oajmk96un.bkt.clouddn.com/hdImg_6e40281f541d24709f2840adc72631a61469706694782.jpg';
-	            room.name = 'MDZZ';
+	            room.name = '默认房间';
 	            list.unshift(_react2.default.createElement(
 	                'li',
 	                {

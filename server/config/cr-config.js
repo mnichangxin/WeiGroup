@@ -1,6 +1,6 @@
 module.exports = {
     ROBOT_NAME : '机器人',
-    INIT_ROOM: 'MDZZ',
+    INIT_ROOM: '默认房间',
     ROBOT_URL: 'http://www.tuling123.com/openapi/api',
     ROBOT_KEY: '273e3ca4189a3fc03b4a94db8d87796b',
     ROBOT_AVATAR:'http://oajmk96un.bkt.clouddn.com/robot.jpg',
