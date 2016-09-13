@@ -1,4 +1,4 @@
-FROM node:4.4.4
+FROM node:6.2.1
 MAINTAINER <mnichangxin@163.com>
 
 ENV APP /usr/src/app
