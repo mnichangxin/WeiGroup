@@ -1,4 +1,4 @@
-!function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={exports:{},id:r,loaded:!1};return e[r].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}([/*!******************!*\
+!function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={exports:{},id:r,loaded:!1};return e[r].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}(function(e){for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t))switch(typeof e[t]){case"function":break;case"object":e[t]=function(t){var n=t.slice(1),r=e[t[0]];return function(e,t,o){r.apply(this,[e,t,o].concat(n))}}(e[t]);break;default:e[t]=e[e[t]]}return e}([/*!******************!*\
   !*** multi main ***!
   \******************/
 function(e,t,n){n(/*! babel-polyfill */229),e.exports=n(/*! ./app/index.jsx */393)},/*!****************************************************************!*\
@@ -290,7 +290,7 @@ function(e,t,n){"use strict";function r(){o.attachRefs(this,this._currentElement
 function(e,t,n){"use strict";function r(e,t,n,r){return o.call(this,e,t,n,r)}var o=n(/*! ./SyntheticEvent */56),i=n(/*! ./getEventTarget */216),a={view:function(e){if(e.view)return e.view;var t=i(e);if(t.window===t)return t;var n=t.ownerDocument;return n?n.defaultView||n.parentWindow:window},detail:function(e){return e.detail||0}};o.augmentClass(r,a),e.exports=r},/*!********************************************************!*\
   !*** ./~/.npminstall/warning/3.0.0/warning/browser.js ***!
   \********************************************************/
-function(e,t,n){"use strict";var r=function(){};e.exports=r},/*!*****************************************************************!*\
+49,/*!*****************************************************************!*\
   !*** ./~/.npminstall/core-js/2.4.1/core-js/modules/_classof.js ***!
   \*****************************************************************/
 function(e,t,n){var r=n(/*! ./_cof */38),o=n(/*! ./_wks */12)("toStringTag"),i="Arguments"==r(function(){return arguments}()),a=function(e,t){try{return e[t]}catch(n){}};e.exports=function(e){var t,n,s;return void 0===e?"Undefined":null===e?"Null":"string"==typeof(n=a(t=Object(e),o))?n:i?r(t):"Object"==(s=r(t))&&"function"==typeof t.callee?"Arguments":s}},/*!*****************************************************************!*\
@@ -2806,5 +2806,5 @@ function(e,t){e.exports=function(){throw new Error("define cannot be used indire
 function(e,t){(function(t){e.exports=t}).call(t,{})},/*!********************!*\
   !*** ws (ignored) ***!
   \********************/
-function(e,t){}]);
+function(e,t){}]));
 //# sourceMappingURL=bundle.js.map
