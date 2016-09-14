@@ -1,9 +1,8 @@
 import io from 'socket.io-client'
 import { browserHistory } from 'react-router'
 
-// export const socket = io('http://mdzzapp.com:3000');
-// export const socket = io('http://mdzzapp.com:3001');
-export const socket = io('http://localhost:3000');
+// export const socket = io('http://localhost:3000');
+export const socket = io('http://weigroup.daoapp.io:3000');
 
 // page UI state
 export const SET_MENU_STATE = 'SET_MENU_STATE';
