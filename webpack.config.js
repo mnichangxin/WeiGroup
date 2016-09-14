@@ -1,9 +1,9 @@
 const  webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
-    // entry:{
-    //     bundle:'./index.jsx',
-    // },
+    entry:{
+        bundle:'./index.jsx',
+    },
     entry:['babel-polyfill', './app/index.jsx'],
     output:{
         path: __dirname + '/server/public/bundle',
@@ -30,16 +30,16 @@ module.exports = {
             }
         ]
     },
-//     plugins: [
-//         new webpack.optimize.UglifyJsPlugin({
-//             compress: {
-//                 warnings: false
-//             }
-//         }),
-//         //new webpack.optimize.DedupePlugin(),
-//         new webpack.optimize.OccurenceOrderPlugin(),
-//         new webpack.DefinePlugin({
-//             'process.env.NODE_ENV': JSON.stringify('production')
-//         })
-//   ]
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        }),
+        //new webpack.optimize.DedupePlugin(),
+        new webpack.optimize.OccurenceOrderPlugin(),
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        })
+  ]
 }
