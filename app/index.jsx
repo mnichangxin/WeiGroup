@@ -42,7 +42,7 @@ favico.resetWhenDocVisibility();
 notification.requestPermission();
 
 const handleInit = (token) => {
-    getHistoryMessage('MDZZ')(store.dispatch).then((resault)=>{
+    getHistoryMessage('群聊房间')(store.dispatch).then((resault)=>{
         return getInitOnlineUser()(store.dispatch)
     }).then((resault)=>{
         return getInitUserInfo(token)(store.dispatch);

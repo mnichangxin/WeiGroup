@@ -24,13 +24,13 @@ module.exports = {
                     });
                     console.log('创建在线用户：',user.nickname);
                     socket.join(socket.id);
-                    socket.join('MDZZ');
+                    socket.join('群聊房间');
                     let userInfo = {
                         nickname: user.nickname,
                         id: socket.id,
                         avatar: user.avatar,
                         isOnline: 1,
-                        curRoom: 'MDZZ'
+                        curRoom: '群聊房间'
                     };
                     io.emit('user joined',userInfo);
                     cb(userInfo);
