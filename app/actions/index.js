@@ -3,6 +3,7 @@ import { browserHistory } from 'react-router'
 
 /* 生产环境 */
 export const socket = io('http://weigroup.daoapp.io');
+// export const socket = io(##你的主机地址##);
 
 /* 开发环境 */
 // export const socket = io('http://localhost:3000');

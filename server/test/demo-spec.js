@@ -4,8 +4,8 @@ describe('Should test', function() {
         (123).should.be.a.Number;
     });
     it('object property', function() {
-        var obj = {name:'minghe',email:"minghe36@gmail.com"};
-        obj.should.have.property('name','minghe');
+        var obj = {name:'mnichangxin',email:"mnichangxin@163.com"};
+        obj.should.have.property('name','mnichangxin');
         obj.should.have.property('email');
     });
 });
