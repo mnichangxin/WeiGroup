@@ -1,10 +1,10 @@
 module.exports = {
 	/* 生产环境 */
-    HOST: '10.10.72.139',
-    PORT: 27017,
-    USERNAME: 'uuH4Qidf3BomjEnx',
-    PASSWORD: 'pagRYxTpD16LeqJmZ',
-    NAME: 'iE8zr6dubwtGsBOQ'
+    HOST: 'db2.daocloudinternal.io',
+    PORT: 60183,
+    USERNAME: 'admin',
+    PASSWORD: 'RpKh2SLZnF1M',
+    NAME: 'temp_db'
 
     /* 开发环境 */
     // HOST: 'localhost',
