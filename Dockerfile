@@ -7,6 +7,7 @@ WORKDIR ${APP}/
 ADD ./ ./
 ADD ./docker/ /docker
 RUN chmod +x /docker/*.sh
+RUN npm install yarn
 RUN yarn install
 
 EXPOSE 3000
