@@ -8,7 +8,7 @@ ADD ./ ./
 ADD ./docker/ /docker
 RUN chmod +x /docker/*.sh
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
-RUN npm install
+RUN cnpm install
 
 EXPOSE 3000
 CMD ["/docker/run.sh"]
