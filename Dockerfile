@@ -7,8 +7,8 @@ WORKDIR ${APP}/
 ADD ./ ./
 ADD ./docker/ /docker
 RUN chmod +x /docker/*.sh
-RUN npm install yarn
-RUN yarn install
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
+RUN npm install
 
 EXPOSE 3000
 CMD ["/docker/run.sh"]
