@@ -1,9 +1,9 @@
-# “围裙”聊一聊
+# wei-group
 
-## 关于
+## About
 
-基于 `React` 的在线聊天程序，支持一对一和群聊
+Online chat program based on `React', supports one-to-one and group chat.
 
-## 标语
+## Slogans
 
-“围裙”是一种生活方式， 让我们聊起来 
+Apron is a way of life. Let's talk about it.
